@@ -8,3 +8,20 @@ pwd
 
 //iniciar um repositorio ao projeto
 git init
+
+// para adicionar arquivo da pasta 
+git add nome_arquivo.extençao 
+nota: o nome do arquivo nao pode usar espaço
+
+//remover arquivo do repositorio
+git rm --cached nome_arquivo.extençao
+
+// adicionar mais arquivos a pasta 
+
+git add . 
+
+//para voltar o arquivo como era antes da alteraçao 
+git restore nome_arquivo.extençao
+
+//primeiro commit(ponto na historia)
+git commit -m "initial commit"
