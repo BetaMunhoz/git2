@@ -1,0 +1,10 @@
+comandos git 
+
+// achando a pasta no pc
+cd arrasta a pasta para o terminal.
+
+// para mostrar caminho da pasta
+pwd
+
+//iniciar um repositorio ao projeto
+git init
